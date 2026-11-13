@@ -6,8 +6,8 @@
 
 | Entregável | Link |
 |---|---|
-| Repositório público (GitHub) | `https://github.com/SEU-USUARIO/rota-inteligente-sabor-express` *(substituir após publicar)* |
-| Vídeo pitch (YouTube, até 4 min) | `https://youtu.be/SEU-VIDEO` *(substituir após publicar)* |
+| Repositório público (GitHub) | https://github.com/christiandino/Rota-Inteligente-Otimiza-o-de-Entregas-com-Algoritmos-de-ia-/edit/main/rota_inteligente/README.md
+| Vídeo pitch (YouTube, até 4 min) |https://youtu.be/T5LzDSe6MNo
 
 ## 1. Problema e objetivos
 A Sabor Express, delivery de alimentos da região central, define os trajetos manualmente, com base apenas na experiência dos entregadores. Nos horários de pico (almoço e jantar) isso gera percursos longos, atrasos, mais gasto de combustível e clientes insatisfeitos.
