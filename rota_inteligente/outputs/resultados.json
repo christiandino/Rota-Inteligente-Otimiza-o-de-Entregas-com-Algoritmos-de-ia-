@@ -1,0 +1,253 @@
+{
+  "cenario": "Dados fictícios; pesos em minutos; vias conforme edges.csv",
+  "entregadores": 2,
+  "entregas_total": 8,
+  "inercia_kmeans": 11.5,
+  "rotas": [
+    {
+      "entregador": 1,
+      "entregas": [
+        "N44",
+        "N34",
+        "N13",
+        "N24"
+      ],
+      "rota_base": [
+        "D",
+        "N44",
+        "N34",
+        "N13",
+        "N24",
+        "D"
+      ],
+      "rota_otimizada": [
+        "D",
+        "N44",
+        "N34",
+        "N24",
+        "N13",
+        "D"
+      ],
+      "tempo_base_min": 62.0,
+      "tempo_otimizado_min": 50.0,
+      "economia_min": 12.0,
+      "caminho_completo": [
+        "D",
+        "N01",
+        "N11",
+        "N12",
+        "N22",
+        "N23",
+        "N33",
+        "N34",
+        "N44",
+        "N34",
+        "N24",
+        "N14",
+        "N13",
+        "N12",
+        "N11",
+        "N01",
+        "D"
+      ]
+    },
+    {
+      "entregador": 2,
+      "entregas": [
+        "N10",
+        "N30",
+        "N41",
+        "N20"
+      ],
+      "rota_base": [
+        "D",
+        "N10",
+        "N30",
+        "N41",
+        "N20",
+        "D"
+      ],
+      "rota_otimizada": [
+        "D",
+        "N10",
+        "N30",
+        "N41",
+        "N20",
+        "D"
+      ],
+      "tempo_base_min": 32.0,
+      "tempo_otimizado_min": 32.0,
+      "economia_min": 0.0,
+      "caminho_completo": [
+        "D",
+        "N10",
+        "N20",
+        "N30",
+        "N40",
+        "N41",
+        "N40",
+        "N30",
+        "N20",
+        "N10",
+        "D"
+      ]
+    }
+  ],
+  "tempo_total_base_min": 94.0,
+  "tempo_total_otimizado_min": 82.0,
+  "economia_percentual": 12.77,
+  "maior_rota_min": 50.0,
+  "comparacao_buscas": [
+    {
+      "origem": "D",
+      "destino": "N44",
+      "astar_min": 24.0,
+      "dijkstra_min": 24.0,
+      "bfs_min": 28.0,
+      "dfs_min": 56.0,
+      "astar_nos_expandidos": 25,
+      "dijkstra_nos_expandidos": 25,
+      "astar_caminho": [
+        "D",
+        "N01",
+        "N11",
+        "N12",
+        "N22",
+        "N23",
+        "N33",
+        "N34",
+        "N44"
+      ],
+      "dijkstra_caminho": [
+        "D",
+        "N01",
+        "N11",
+        "N12",
+        "N22",
+        "N23",
+        "N33",
+        "N34",
+        "N44"
+      ],
+      "bfs_caminho": [
+        "D",
+        "N10",
+        "N20",
+        "N30",
+        "N40",
+        "N41",
+        "N42",
+        "N43",
+        "N44"
+      ],
+      "dfs_caminho": [
+        "D",
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N14",
+        "N24",
+        "N23",
+        "N22",
+        "N21",
+        "N20",
+        "N30",
+        "N40",
+        "N41",
+        "N42",
+        "N43",
+        "N44"
+      ]
+    },
+    {
+      "origem": "D",
+      "destino": "N20",
+      "astar_min": 5.0,
+      "dijkstra_min": 5.0,
+      "bfs_min": 5.0,
+      "dfs_min": 33.0,
+      "astar_nos_expandidos": 3,
+      "dijkstra_nos_expandidos": 5,
+      "astar_caminho": [
+        "D",
+        "N10",
+        "N20"
+      ],
+      "dijkstra_caminho": [
+        "D",
+        "N10",
+        "N20"
+      ],
+      "bfs_caminho": [
+        "D",
+        "N10",
+        "N20"
+      ],
+      "dfs_caminho": [
+        "D",
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N14",
+        "N24",
+        "N23",
+        "N22",
+        "N21",
+        "N20"
+      ]
+    },
+    {
+      "origem": "N44",
+      "destino": "N20",
+      "astar_min": 21.0,
+      "dijkstra_min": 21.0,
+      "bfs_min": 23.0,
+      "dfs_min": 33.0,
+      "astar_nos_expandidos": 18,
+      "dijkstra_nos_expandidos": 22,
+      "astar_caminho": [
+        "N44",
+        "N34",
+        "N33",
+        "N23",
+        "N22",
+        "N21",
+        "N20"
+      ],
+      "dijkstra_caminho": [
+        "N44",
+        "N34",
+        "N33",
+        "N23",
+        "N22",
+        "N21",
+        "N20"
+      ],
+      "bfs_caminho": [
+        "N44",
+        "N43",
+        "N42",
+        "N41",
+        "N40",
+        "N30",
+        "N20"
+      ],
+      "dfs_caminho": [
+        "N44",
+        "N34",
+        "N24",
+        "N14",
+        "N04",
+        "N03",
+        "N02",
+        "N01",
+        "D",
+        "N10",
+        "N20"
+      ]
+    }
+  ],
+  "observacao": "Tempo total = soma dos tempos de todos os entregadores (minutos-entregador); maior_rota_min = tempo até o último entregador voltar. Não inclui preparo, atendimento ou trânsito em tempo real."
+}
